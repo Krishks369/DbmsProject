@@ -14,23 +14,36 @@
     <script src="https://rawcdn.githack.com/albburtsev/jquery.typist/f4f429fad5bab374b1cf01da52ce4e469758afe6/dist/jquery.typist.min.js"></script>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-dark">
-        <a href="./home_page.html">
-            <img src="./comp_logo.png" alt="Agri Helper">
-        </a>
-        <a href="" class="about">About</a>
-        <a href="" class="mission">Mission</a>
-        <a href="" class="contact">Contact</a>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Login
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Buyer</a></li>
-              <li><a class="dropdown-item" href="#">Seller</a></li>
-              <li><a class="dropdown-item" href="#">Employee</a></li>
-            </ul>
-          </li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./comp_logo.png" alt="Agri Helper"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Mission</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Buyer</a></li>
+                    <li><a class="dropdown-item" href="#">Seller</a></li>
+                    <li><a class="dropdown-item" href="#">Employee</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
     </nav>
 </body>
 </html>
