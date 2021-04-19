@@ -14,4 +14,12 @@ nav a img {
 #slides .content{
     background-color: aliceblue;
 }
-
+.about {
+    font-family: 'Fauna One', serif;
+    font-size: larger;
+}
+.about h1 {
+    font-family: Cinzel, serif;
+    font-size: 46px;
+    text-align: center;
+}
