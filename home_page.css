@@ -2,3 +2,8 @@ nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20;
 }
+nav a img {
+    padding-left: 10px;
+    padding-right: 20px;
+    transform: scale(0.7);
+}
