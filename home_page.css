@@ -8,7 +8,7 @@ nav a img {
     transform: scale(0.7);
 }
 #slides {
-    margin-top: -250px;
+    margin-top: -300px;
     transform: scale(0.7);
     
 }
@@ -71,4 +71,10 @@ body{
 }
 .phone {
     margin-top: 70px;
+}
+.network {
+    margin-right: 400px;
+    margin-top: 140px;
+    margin-bottom: 0;
+    transform: scale(4);
 }
