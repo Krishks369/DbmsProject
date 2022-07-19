@@ -1,0 +1,12 @@
+on: [pull_request_target]
+
+jobs: 
+   publish:
+     runs-on: ubuntu-latest
+     
+     steps:
+     - name: Lint Specifier
+       uses: Akshay090/github-action-text-summarization@master
+       with: 
+        path: assets/file.txt
+
